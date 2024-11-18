@@ -68,6 +68,7 @@ kotlin {
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.kotlinx.coroutines.test)
             implementation(libs.multiplatformSettings)
+            implementation(libs.multiplatformSettings.coroutines)
             implementation(libs.koin.core)
             implementation(libs.koin.compose)
         }
