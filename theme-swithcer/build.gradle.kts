@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.multiplatform)
     alias(libs.plugins.android.library)
     id("org.jetbrains.dokka") version "1.9.20"
-    id("convention.publication")
+//    id("convention.publication")
     id("maven-publish")
     id("signing")
 }
