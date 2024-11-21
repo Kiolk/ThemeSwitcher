@@ -17,14 +17,14 @@ kotlin {
 
     jvm()
 
-    js {
-        browser {
-            webpackTask {
-                mainOutputFileName = "theme-swithcer.js"
-            }
-        }
-        binaries.executable()
-    }
+//    js {
+//        browser {
+//            webpackTask {
+//                mainOutputFileName = "theme-swithcer.js"
+//            }
+//        }
+//        binaries.executable()
+//    }
 
     wasmJs {
         browser()
