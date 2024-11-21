@@ -7,7 +7,6 @@ plugins {
 
 group = "com.github.kiolk"
 version = "1.0.0"
-
 val dokkaOutputDir = file("$buildDir/dokka")
 
 kotlin {
