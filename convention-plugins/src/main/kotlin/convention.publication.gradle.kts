@@ -63,7 +63,7 @@ publishing {
         pom {
             name.set("ThemeSwitcher")
             description.set("Kotlin Multiplatform library")
-            //url.set("") todo
+            url.set("https://github.com/Kiolk/ThemeSwitcher")
 
             licenses {
                 license {
@@ -73,13 +73,13 @@ publishing {
             }
             developers {
                 developer {
-                    //id.set("") todo
-                    //name.set("") todo
-                    //email.set("") todo
+                    id.set("kiolk")
+                    name.set("Yauheni Slizh")
+                    email.set("tyteishi@gmail.com")
                 }
             }
             scm {
-                //url.set("") todo
+                url.set("https://github.com/Kiolk/ThemeSwitcher")
             }
         }
     }
